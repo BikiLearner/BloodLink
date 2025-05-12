@@ -29,7 +29,7 @@ class _MapPickerPageState extends State<MapPickerPage> {
   @override
   void initState() {
     super.initState();
-    googlePlace = GooglePlace("AIzaSyA0nCJ162t8mURRz97uZjwY1BO7SxjrNTE");
+    googlePlace = GooglePlace("");
     _initLocationAndMarkers();
   }
 
